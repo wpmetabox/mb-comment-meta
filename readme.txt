@@ -1,12 +1,28 @@
+=== MB Comment Meta ===
+Contributors: metabox, rilwis
+Donate link: https://paypal.me/anhtnt
+Tags: comment meta, comment custom fields, custom fields, comment, comments
+Requires at least: 4.3
+Tested up to: 4.8
+Stable tag: 1.0
+License: GPLv2 or later
+
+Add custom fields for comments. Support 40+ field types with easy config.
+
+== Description ==
+
 [MB Comment Meta](https://metabox.io/plugins/mb-comment-meta/) is an extension for [Meta Box](https://metabox.io) plugin, which adds custom fields to comments in WordPress.
 
 The plugin supports all field types from Meta Box: text, select, color, media, date time, etc. and all the field options.
 
-### Screenshot
+### Plugin Links
 
-![mb comment meta](https://mb-static.surge.sh/extensions/comment-meta.png)
+- [Project Page](https://metabox.io/plugins/mb-comment-meta/)
+- [Github Repo](https://github.com/rilwis/mb-comment-meta/)
 
-### Installation
+See more [Meta Box extensions](https://metabox.io/plugins/).
+
+== Installation ==
 
 You need to install Meta Box plugin first
 
@@ -20,10 +36,14 @@ Install **MB Comment Meta** extension
 - Click **Install Now** button to install the plugin
 - After installing, click **Activate Plugin** to activate the plugin
 
-### Usage
+== Frequently Asked Questions ==
 
-To use this plugin, just [register a meta box](https://metabox.io/docs/registering-meta-boxes/) and add the following parameter for meta box:
+== Screenshots ==
+1. Basic custom fields for comments
 
-```php
-'type' => 'comment',
-```
+== Changelog ==
+
+= 1.0 =
+- First version
+
+== Upgrade Notice ==
