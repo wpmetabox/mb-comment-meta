@@ -22,7 +22,6 @@ class MB_Comment_Meta_Box extends RW_Meta_Box {
 	 */
 	protected function object_hooks() {
 		$this->meta_box['post_types'] = array( 'comment' );
-		$this->meta_box['context']    = 'normal';
 
 		add_action( 'add_meta_boxes_comment', array( $this, 'add_meta_boxes' ) );
 		add_action( 'edit_comment', array( $this, 'save_post' ) );
