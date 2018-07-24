@@ -1,0 +1,36 @@
+{
+  "name": "wpmetabox/mb-comment-meta",
+  "type": "library",
+  "keywords": [
+    "wordpress",
+    "ui",
+    "select2",
+    "wp-admin",
+    "meta-box",
+    "wordpress-plugin",
+    "custom-field",
+    "custom-post-type",
+    "rest",
+    "rest-api"
+  ],
+  "description": "Add custom fields for comments in WordPress. Support 40+ field types with easy config.",
+  "homepage": "https://metabox.io/plugins/mb-comment-meta/",
+  "license": "GPL-2.0",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Tran Ngoc Tuan Anh",
+      "email": "anhtnt@elightup.com",
+      "homepage": "https://deluxeblogtips.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "mb-comment-meta.php"
+    ]
+  },
+  "require": {
+    "wpmetabox/meta-box": "^4.15"
+  }
+}
