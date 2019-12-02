@@ -64,6 +64,9 @@ add_filter( 'rwmb_meta_boxes', function ( $meta_boxes ) {
 } );
 
 add_action( 'wp_head', function () {
+	if ( ! isset( $_GET['debug'] ) ) {
+		return;
+	}
 	$prefix = 'your_prefix_';
 
 	$comment_id = 1;
