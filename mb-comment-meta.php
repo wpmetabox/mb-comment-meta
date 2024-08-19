@@ -3,19 +3,17 @@
  * Plugin Name: MB Comment Meta
  * Plugin URI: https://metabox.io/plugins/mb-comment-meta/
  * Description: Add custom fields (meta data) for comments.
- * Version: 1.0
+ * Version: 1.0.1
  * Author: MetaBox.io
  * Author URI: https://metabox.io
  * License: GPL2+
  * Text Domain: mb-comment-meta
- * Domain Path: /languages/
- *
- * @package Meta Box
- * @subpackage MB Comment Meta
  */
 
 // Prevent loading this file directly.
-defined( 'ABSPATH' ) || exit;
+if ( ! defined( 'ABSPATH' ) ) {
+	return;
+}
 
 if ( ! function_exists( 'mb_comment_meta_load' ) ) {
 	/**

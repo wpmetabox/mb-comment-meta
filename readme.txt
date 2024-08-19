@@ -3,8 +3,8 @@ Contributors: metabox, rilwis
 Donate link: https://paypal.me/anhtnt
 Tags: comment meta, comment custom fields, custom fields, comment, comments
 Requires at least: 4.3
-Tested up to: 4.8
-Stable tag: 1.0
+Tested up to: 6.6.1
+Stable tag: 1.0.1
 License: GPLv2 or later
 
 Add custom fields for comments. Support 40+ field types with easy config.
@@ -42,6 +42,9 @@ Install **MB Comment Meta** extension
 1. Basic custom fields for comments
 
 == Changelog ==
+
+= 1.0.1 - 2024-08-19 =
+Fix running PHP Codesniffer when installing & autoload the plugin's main file via Composer
 
 = 1.0 =
 - First version
