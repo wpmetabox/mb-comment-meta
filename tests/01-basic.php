@@ -64,7 +64,7 @@ add_filter( 'rwmb_meta_boxes', function ( $meta_boxes ) {
 } );
 
 add_action( 'wp_head', function () {
-	if ( ! isset( $_GET['debug'] ) ) {
+	if ( ! isset( $_GET['debug'] ) ) { // phpcs:ignore WordPress.Security.NonceVerification.Recommended
 		return;
 	}
 	$prefix = 'your_prefix_';
@@ -72,7 +72,7 @@ add_action( 'wp_head', function () {
 	$comment_id = 1;
 	$fields     = [ 'text', 'checkbox', 'radio', 'select', 'textarea' ];
 	foreach ( $fields as $field ) {
-		echo '<h1>Field: ', $field, '</h1>';
+		echo '<h1>Field: ', esc_html( $field ), '</h1>';
 		echo '<p><code>rwmb_meta()</code></p>';
 		$value = rwmb_meta( $prefix . $field, [ 'object_type' => 'comment' ], $comment_id );
 		var_dump( $value );
