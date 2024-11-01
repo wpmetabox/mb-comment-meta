@@ -1,12 +1,12 @@
 <?php
 /**
  * Plugin Name: MB Comment Meta
- * Plugin URI: https://metabox.io/plugins/mb-comment-meta/
+ * Plugin URI:  https://metabox.io/plugins/mb-comment-meta/
  * Description: Add custom fields (meta data) for comments.
- * Version: 1.0.1
- * Author: MetaBox.io
- * Author URI: https://metabox.io
- * License: GPL2+
+ * Version:     1.0.2
+ * Author:      MetaBox.io
+ * Author URI:  https://metabox.io
+ * License:     GPL2+
  * Text Domain: mb-comment-meta
  */
 
